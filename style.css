@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(48, 52, 52); */
+    background: linear-gradient(to top,rgb(0, 0, 0), rgb(57, 102, 107));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(134, 172, 171);
+    border-radius: 10px;
+    overflow: hidden;
+}
+#container-top{
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(48, 48, 48); */
+
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(110, 255, 245));
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 12vw;
+}
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.elem h2{
+    font-size: 1.5vw;
+}
+
+.elem .box{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(222, 113, 113));
+
+    color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+#container-btm{
+    height: calc(100% - 100px);
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* background-color: rgb(255, 204, 0); */
+}
+.bubble{
+    height: 70px;
+    width: 70px;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    border-radius: 50%;
+    /* background-color: rgb(55, 55, 55); */
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(0, 255, 238));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.bubble:hover{
+    transition: all ease 0.5s;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgb(222, 113, 113));
+}
+#end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#end h1{
+    font-size: 10vw;
+    color: rgb(34, 47, 48);
+}
+#end h3{
+    font-size: 2vw;
+    color: rgb(34, 47, 48);
+}
